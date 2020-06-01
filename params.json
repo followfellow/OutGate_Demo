@@ -1,0 +1,47 @@
+{
+    "BasePar": {
+        "name": "\u5927\u6f20",
+        "image": "\u4eae\u8272",
+        "support": "\u4e0a\u6d77\u5927\u6f20\u7535\u5b50\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+        "testing": "\u5426",
+        "URL": "http://192.168.20.235:8321/updateGatePassInfoAction/updateGatePassInfo",
+        "GateNum": "111",
+        "Interface": "1"
+    },
+    "GateForm": {
+        "gate_form": "\u4e09\u8f8a\u95f8\u673a",
+        "three": "ttyS1",
+        "wing": "ttyS1",
+        "swing": "ttyS1",
+        "swing_2": "ttyS1"
+    },
+    "GateMode": {
+        "gate_mode": "\u5355\u5411\u5165\u53e3",
+        "ticket_mode": "\u4e00\u7968\u591a\u5ba2"
+    },
+    "Reader": {
+        "code_check": 1,
+        "idcard_check": 1,
+        "code_com": "ttyS0",
+        "code_com_2": "None",
+        "code_com_3": "None",
+        "idcard_set": "synjo+RFID",
+        "zkong_com": "ttyS2"
+    },
+    "Screen": {
+        "screen": "6.5_800*600"
+    },
+    "Face": {
+        "face_check": 1,
+        "face_ip": "192.168.0.0",
+        "threshold": "50",
+        "face_mode_1": 1,
+        "face_mode_n": 1,
+        "rotate": "clockwise0",
+        "index": "0"
+    },
+    "UiMode": {
+        "ui_mode": "\u6837\u5f0f\u4e00",
+        "temperature": "None"
+    }
+}
